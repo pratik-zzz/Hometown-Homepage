@@ -1,0 +1,152 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* Remove this in the end  */
+img {
+    width: 100px;
+}
+
+/* Main element selectors */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+h3 {
+    margin-top: 39px;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Hero section  */
+
+#hero {
+	background-image: url("images/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}   
+
+#hero-heading { 
+    border-radius: 10px;
+    height: 50px;
+    width: 230px;
+    background: #1D3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11px;
+}
+
+#hero-subtitle {
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    background: #457B9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Places to visit */
+
+#travel-places {
+    background: #edffff;
+    padding: 20px;
+    color: #1D3557;
+}
+
+#travel-places div {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+
+#travel-places div div {
+    display: inline-block;
+    width: 198px;
+    vertical-align: top;
+    line-height: 20px;
+}
+
+#travel-places img {
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#travel-places img:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.places-heading {
+    font-weight: 700;
+}
+
+/* Guide info  */
+
+#guide-info {
+    display: flex;
+    align-items: center;
+    color: #1D3557;
+    background-color: #79aecf;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+#guide-info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    box-shadow: 0 5px;
+}   
+
+#guide-info-card p {
+    font-style: italic;
+}
+
+#guide-pic {
+    height: 248px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
