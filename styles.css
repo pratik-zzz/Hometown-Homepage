@@ -125,7 +125,6 @@ p {
     background-color: #79aecf;
     display: flex;
     justify-content: center;
-    height: 500px;
 }
 
 #guide-info-card {
@@ -134,6 +133,7 @@ p {
     align-items: center;
     height: 300px;
     width: 500px;
+    margin: 100px 100px;
     padding: 25px;
     border-radius: 10px;
     background-color: #A8DADC;
