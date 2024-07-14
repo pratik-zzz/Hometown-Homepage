@@ -117,8 +117,8 @@ p {
 }
 
 /* Guide info  */
-.style{
-    margin: 20px;
+.tag{
+    margin-bottom: 60px;
     color: #457B9D;
 }
 #guide-info {
@@ -126,6 +126,7 @@ p {
     align-items: center;
     color: #1D3557;
     background-color: #79aecf;
+    height: 400px;
     display: flex;
     justify-content: center;
 }
