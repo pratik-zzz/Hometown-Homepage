@@ -117,7 +117,10 @@ p {
 }
 
 /* Guide info  */
-
+.style{
+    margin: 20px;
+    color: #457B9D;
+}
 #guide-info {
     display: flex;
     align-items: center;
